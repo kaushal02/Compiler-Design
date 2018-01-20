@@ -1,17 +1,19 @@
 Compilers Project
 =======
 
-Make the _run.sh_ file executable
+Make the _bash_ file executable
 
-    chmod +x run.sh
+    chmod +x *sh
 
 To build the project, simply do
 
-    bash build.sh
+    ./build.sh
 
 All output files are stored in _out/_ once you compile a testfile
 
 ## compile options
+
+It is recommended to build the project before using any compile option
 
 * `./run.sh ./test/test1.c` builds parse tree on file test1.c
 * `./run.sh -p ./test/test1.c` same as above
