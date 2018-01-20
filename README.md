@@ -2,10 +2,10 @@ Compilers Project
 =======
 Run the following commands to build the project
 
-    cd /src
+    cd src
     make
     cd ..
-    bash +x 777 run.sh
+    chmod +x run.sh
 
 Run clean after you're done
 
@@ -29,6 +29,12 @@ Run clean after you're done
 * `./run.sh -p` builds the parse-tree in file _parsetree.pdf_
 * `./run.sh -l` outputs scanned tokens (incomplete, only for testing) on terminal
 * sample files are provided in test directory
+
+## require
+
+    flex
+    bison
+    graphviz
 
 ## Acknowledgements
 

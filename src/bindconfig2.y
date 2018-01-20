@@ -107,7 +107,7 @@ struct ST {	//symbol table- kinda generic- args and return value for function.
 	int def;
 	entry ret;
 	string name;  //function/node
-	int offset; // within parent's scope
+	int offset; // within parent's scope	
 	int negoff;
 	int sz;
 	map<string, entry> var;	//maps variable names to datatype (for structs also), used in global vars, local vars, struct vars, function vars
@@ -1518,6 +1518,7 @@ set<string> res_func = {"printint", "scanint", "println"};//for reserved functio
 ////////////
 
 int main() {
+	freopen("out/dump.out", "w", stderr);
 	arr[1].par=0;
 	prio["CHAR"]=0, prio["INT"]=1, prio["FLOAT"]=2, prio["DOUBLE"]=3;
 	rprio[0]="CHAR", rprio[1]="INT", rprio[2]="FLOAT", rprio[3]="DOUBLE", rprio[8]="POINTER";

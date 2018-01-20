@@ -5,7 +5,7 @@ lex: scan.1.l gram.1.y lexer.c
 	yacc -d gram.1.y
 	gcc -w -c lexer.c
 	gcc -w -o ../bin/lexer lex.yy.c lexer.o -lfl
-	rm y.tab.c y.tab.h lex.yy.c lexer.o
+	-rm y.tab.c y.tab.h lex.yy.c lexer.o
 
 parse: bindconfig2.l bindconfig2.y
 	lex bindconfig2.l
