@@ -1,18 +1,15 @@
 Compilers Project
 =======
-Run the following commands to build the project
 
-    cd src
-    make
-    cd ..
+Make the _run.sh_ file executable
+
     chmod +x run.sh
 
-Run clean after you're done
+To build the project, simply do
 
-    cd /src
-    make clean
+    bash build.sh
 
-*clean* deletes all intermediate files including lexer and parser
+All output files are stored in _out/_ once you compile a testfile
 
 ## compile options
 
