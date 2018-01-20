@@ -40,5 +40,4 @@ It is recommended to build the project before using any compile option
 * Grammar specification taken from  [here](http://www.quut.com/c/ANSI-C-grammar-y.html)
 * Token specification taken from [here](http://www.quut.com/c/ANSI-C-grammar-l-2011.html)
 * Lex/YACC tutorials from [here](http://www.iitk.ac.in/LDP/HOWTO/Lex-YACC-HOWTO.html)
-* Test files taken from internet
 * Tutorial videos on [YouTube](https://www.youtube.com)
