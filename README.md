@@ -26,7 +26,7 @@ Run clean after you're done
 
 * _gram.1.y_ and _scan.1.l_ are used to create the lexer
 * _gram.y_ and _scan.l_ are used to create the parser
-* `./run.sh -p` builds the parse-tree in file parsetree.pdf
+* `./run.sh -p` builds the parse-tree in file _parsetree.pdf_
 * `./run.sh -l` outputs scanned tokens (incomplete, only for testing) on terminal
 * sample files are provided in test directory
 
