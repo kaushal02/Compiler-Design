@@ -16,4 +16,4 @@ parse: bindconfig2.l bindconfig2.y
 
 clean:
 	-rm ../bin/lexer ../bin/parser
-	-rm ../out/dump* ../out/parsetree.pdf ../out/code.s
+	-rm ../out/*
